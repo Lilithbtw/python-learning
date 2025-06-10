@@ -1,7 +1,6 @@
 import random
 
 def read_dice():
-    dice1 = None
     while True:
 
         accept_dice = input("Roll the dice? (y/n): ")
