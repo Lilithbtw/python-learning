@@ -6,9 +6,9 @@ def read_dice():
         accept_dice = input("Roll the dice? (y/n): ")
 
         if accept_dice == "y" or accept_dice == "Y":
-            num_dice =int(input("How many rolls: "))
+            num_dice = int(input("How many rolls: "))
             times = int(input("How many times: "))
-            dice_sides= int(input("How many sides: "))
+            dice_sides = int(input("How many sides: "))
 
             for i in range(times):
                 for j in range(num_dice):
