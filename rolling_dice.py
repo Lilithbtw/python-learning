@@ -17,7 +17,7 @@ def read_dice():
                     print(f"Roll {j+1}: ({roll})")
 
         elif accept_dice == "n" or accept_dice == "N":
-            if dice1 is not None:
+            if roll is not None:
                 print("Thanks for playing!")
                 exit(0)
             exit(0)
